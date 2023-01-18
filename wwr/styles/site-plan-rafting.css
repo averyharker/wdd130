@@ -5,6 +5,7 @@ Fonts are separated by a & */
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Mansalva&display=swap');
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #D9D3D4   ;
