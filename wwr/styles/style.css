@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Mansalva&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,6 +11,7 @@ nav a {
     text-align: center;
     color: white;
     text-decoration: none;
+    padding: 35px;
 }
 #hero_msg h1, #hero_msg h4 {
     text-align: center;
@@ -22,6 +28,10 @@ main section {
 }
 body {
     background-color: white;
+    font-family: 'Inter', helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #F6AE2D;
@@ -34,6 +44,10 @@ nav a:hover {
     background-color: #F6AE2D;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #28666E;
@@ -41,22 +55,32 @@ nav a:hover {
 }
 .msg {
     background-color: #D9D3D4;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color: #F6AE2D;
     color: #42253B;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home_title {
     color: #28666E;
+    font-family: 'Josefin Sans', arial, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: #28666E;
 }
 .msg h2 {
     color: #42253B;
+    font-family: 'Josefin Sans', arial, sans-serif;
 }
 .msg p {
     color: #42253B;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer a {
     color: #42253B;
@@ -70,6 +94,7 @@ footer a:hover {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero_img {
     width: 100%;
@@ -79,4 +104,22 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
+}
+h2 {
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+.rivers_card, .camping_card, .rapids_card {
+    margin: 200px 0;
+}
+.card_img {
+    border: 10px solid #42253B;
+}
+main section img {
+    box-sizing: border-box;
 }
