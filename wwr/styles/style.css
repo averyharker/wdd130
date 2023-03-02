@@ -140,7 +140,7 @@ nav {
 #hero {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    margin-top: -100px;
+    
 }
 #hero_box {
     grid-column: 1/4;
@@ -188,6 +188,61 @@ nav {
 .card_img:hover {
     opacity: .6;
     transform: scale(1.1);
+}
+
+/* CSS for FAQ Page */
+
+#subimage {
+    width: 100%
+}
+
+#subheader {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    
+}
+
+#subimagebox {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#subtitlebox {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+
+.subtitle {
+    color: white;
+    font-family: 'Josefin Sans', arial, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+#subtitlebox h1, #subtitlebox h4 {
+    text-align: center;
+    color: #D9D3D4;
+}
+
+.faqgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.box1, .box4, .box5 {
+    background-color:#42253B;
+    color:#D9D3D4;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6 {
+    padding: 35px;
+    margin: 35px;
+}
+
+.box2, .box3, .box6 {
+    border: 10px solid #F6AE2D;
 }
 
 
