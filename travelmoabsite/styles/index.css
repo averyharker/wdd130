@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&family=Inter&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: white;
+    font-family: 'Inter', helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #44633f;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 35px;
+}
+.logo, .logo_end {
+    width: 80px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+nav a:hover {
+    color: #e55812;
+}
+.top_img {
+    width: 100%;
+    height: 700px;
+}
+#top {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    
+}
+#top_box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#top_msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+#top_msg h1, #top_msg h4 {
+    text-align: center;
+    color: white;
+}
+#top_msg h1 {
+    font-size: 80px;
+    font-family: 'Cardo', arial, sans-serif;
+}
+.home_grid {
+    max-width: 1600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.arches_info, .arches_imgbox, .canyon_info, .canyon_imgbox {
+    padding: 25px;
+    margin: 25px;
+}
+.arches_img, .canyon_img {
+    width: 530px;
+    border: 20px solid #44633f;
+    border-radius: 5px;
+}
+.arches_info, .canyon_info {
+    border-radius: 5px;
+    color: #011627;
+}
+.arches_info h2 {
+    font-family: 'Cardo', arial, sans-serif;
+    font-size: 40px;
+    text-align: left;
+}
+.canyon_info h2 {
+    font-family: 'Cardo', arial, sans-serif;
+    font-size: 40px;
+    text-align: right;
+}
+.arches_info p {
+    text-align: left;
+}
+.canyon_info p {
+    text-align: right;
+}
+.add_info h2 {
+    font-family: 'Cardo', arial, sans-serif;
+    font-size: 40px;
+    text-align: left;
+    margin: 25px;
+    padding: 25px;
+    color:#011627;
+}
+footer {
+    background-color: #44633f;
+    color: #011627;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.canyon_button, .arches_button {
+    text-align: center;
+}
+.info_button {
+    background-color: #e55812;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.info_button:hover {
+    background-color: #011627;
+    color: #e55812;
+}
+.arches_imgbox, .canyon_imgbox {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 25px;
+    grid-template-rows: 50px 50px 50px 50px 50px 20px 20px 20px 20px 20px 30px 10px;
+}
+.view_morea {
+    grid-column: 4/7;
+    text-align: right;
+    color: white;
+    grid-row: 12/13;
+    text-decoration: none;
+}
+.view_morec {
+    grid-column: 4/7;
+    text-align: right;
+    color: white;
+    grid-row: 10/11;
+    text-decoration: none;
+}
+.view_morea:hover, .view_morec:hover{
+    transform: scale(1.1);
+}
