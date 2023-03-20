@@ -139,6 +139,25 @@ footer {
     grid-template-rows: 50px 50px 50px 50px 50px 20px 20px 20px 20px 20px 30px 10px;
 }
 
+.view_morea {
+    grid-column: 4/6;
+    text-align: right;
+    color: white;
+    grid-row: 11/12;
+    text-decoration: none;
+}
+.view_morec {
+    grid-column: 4/6;
+    text-align: right;
+    color: white;
+    grid-row: 9/10;
+    text-decoration: none;
+}
+.view_morea:hover, .view_morec:hover{
+    transform: scale(1.1);
+}
+
+
 
 
 
@@ -150,23 +169,6 @@ footer {
 
 /* Dining CSS */
 
-.view_morea {
-    grid-column: 4/7;
-    text-align: right;
-    color: white;
-    grid-row: 12/13;
-    text-decoration: none;
-}
-.view_morec {
-    grid-column: 4/7;
-    text-align: right;
-    color: white;
-    grid-row: 10/11;
-    text-decoration: none;
-}
-.view_morea:hover, .view_morec:hover{
-    transform: scale(1.1);
-}
 
 * {box-sizing:border-box}
 
