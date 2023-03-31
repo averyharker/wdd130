@@ -304,3 +304,40 @@ footer {
     font-size: 18px;
     padding: 26px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Outdoor Activities CSS */
+
+.bottom_img {
+    width: 100%;
+    height: 700px;
+}
+
+.overview h4, .fourwheeling h4, .golfing h4, .biking h4 {
+    font-family: 'Cardo', arial, sans-serif;
+    font-size: 35px;
+}
+
+.activities_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 30px;
+    color:#011627;
+}
+
+.biking, .fourwheeling, .golfing {
+    padding: 30px;
+    text-align: center;
+}
